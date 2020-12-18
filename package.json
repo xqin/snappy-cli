@@ -1,0 +1,29 @@
+{
+  "name": "snappy-cli",
+  "version": "1.0.0",
+  "description": "snappy compress/uncompress cli",
+  "main": "index.js",
+  "bin": {
+    "snappy": "./bin/snappy.js",
+    "unsnappy": "./bin/unsnappy.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "snappy",
+    "compress",
+    "uncompress",
+    "cli"
+  ],
+  "author": "dds_feng@qq.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/xqin/snappy-cli"
+  },
+  "dependencies": {
+    "get-stdin": "^6.0.0",
+    "snappy": "^6.2.3"
+  }
+}
